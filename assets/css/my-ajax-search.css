@@ -1,0 +1,71 @@
+.mas-search-form,
+.fyndo-search-form {
+  position: relative;
+  max-width: 600px;
+}
+.mas-search-form input[type="search"],
+.fyndo-search-form input[type="search"] {
+  width: 100%;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.mas-search-results,
+.fyndo-search-results {
+  list-style: none;
+  margin: 4px 0 0 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 6px 18px rgba(2, 6, 23, 0.08);
+  display: block;
+  max-height: 360px;
+  overflow: auto;
+}
+.mas-result-item,
+.fyndo-result-item {
+  display: block;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 10px;
+}
+.mas-result-item:last-child,
+.fyndo-result-item:last-child {
+  border-bottom: none;
+}
+.mas-result-item a.mas-result-link,
+.fyndo-result-item a.fyndo-result-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.mas-result-item img.mas-thumb,
+.fyndo-result-item img.fyndo-thumb {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+.mas-result-title,
+.fyndo-result-title {
+  font-size: 15px;
+}
+.mas-search-live,
+.fyndo-search-live {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Elementor specific */
+.elementor-widget-fyndo_ajax_search .fyndo-search-form,
+.elementor-widget-mas_ajax_search .mas-search-form {
+  width: 100%;
+}
