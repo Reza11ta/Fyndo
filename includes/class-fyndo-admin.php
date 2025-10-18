@@ -169,6 +169,9 @@ class FYND_Admin
                             <h2>نکتهٔ مهم</h2>
                             <p class="fyndo-note">برای کار صحیح این افزونه لازم است ووکامرس یا المنتور نصب و فعال باشد. در صورت نیاز به کمک بیشتر، اطلاع دهید.</p>
                         </div>
+                        <div class="fyndo-box">
+                            <a href="https://reza11ta.github.io/portfolio/" target="_blank">رضا توکلی</a>
+                        </div>
                     </div>
                 </div>
             </div>

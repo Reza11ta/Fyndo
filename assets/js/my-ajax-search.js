@@ -155,7 +155,6 @@
       }, 250)
     );
 
-    // keyboard navigation: up/down/enter
     $input.on("keydown", function (e) {
       var $items = $results.find(".fyndo-result-link");
       if (!$items.length) return;
@@ -171,14 +170,12 @@
       }
     });
 
-    // click outside to close
     $(document).on("click.fyndo." + instance, function (e) {
       if (!$(e.target).closest($form).length) {
         closeResults();
       }
     });
 
-    // cleanup on remove (if using ajax page navigation)
     $form.on("remove", function () {
       $(document).off("click.fyndo." + instance);
     });

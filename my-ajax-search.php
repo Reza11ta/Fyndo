@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: Fyndo (Ajax Product Search)
- * Plugin URI:  https://example.com
+ * Plugin URI:  https://reza11ta.github.io/portfolio
  * Description: سریع , امن , استفاده از سیستم سرچ در لحظه ajax
  * Version:     1.0.0
  * Author:      Reza Tavakoli
